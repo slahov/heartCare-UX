@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@600&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=KoHo:wght@600&display=swap');
+      </style>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../subpages-styles/login-style.css">
+    <link rel="stylesheet" href="../../subpages-styles/subpages-styles.css">
+</head>
+<body>
+    <div class="page">
+        <div class="items-on-page">
+            <div class="logo">
+                <img src="../img/small_heartCare_logo.svg">
+                <div class="heartCare-text">HeartCare</div>
+            </div>
+                <p class="velky-text-prihlasenie">Prihlásenie</p>
+                <p class="informacny-text-k-prihlaseniu">Prihláste sa, aby ste mohli plne <br> využívať všetky funkcie aplikácie.</p>
+            <div class="login-box">
+                <form action="">
+                    <div class="user-box">
+                        <input type="text" required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="user-box">
+                        <input type="password" required>
+                        <label for="">Heslo</label>
+                    </div>
+                    <a href="#" class="zabudnute-heslo-text">Zabudnuté heslo?</a>
+                    <button id="logged-in" class="btn-prihlasenie" name="btn_prihlasenie">Prihlásiť sa</button>
+                </form>
+            </div>
+            
+            
+                <p class="alebo">Alebo</p>
+                <p class="prihlasit-sa-pomocou">sa prihláste pomocou</p>
+            <div class="alternativne-prihlasenie">    
+                <div class="logo-alternativy">
+                    <a href="logged-in/prehlad-logged-in.html" class="logo-link">
+                        <img src="../img/apple_logo.svg" class="apple-logo">
+                    </a>
+                    <a id="loading-overlay" href="ogged-in/prehlad-logged-in.html" class="logo-link">
+                        <img src="../img/facebook_logo.svg" class="facebook-logo">
+                    </a>
+                    <a href="logged-in/prehlad-logged-in.html" class="logo-link">
+                        <img src="../img/gmail_logo.svg" class="gmail-logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="spat">
+            <a href="http://127.0.0.1:5500/index.html">
+                <img src="img/arrow-left-large.svg" alt="">
+                <p>←  Späť</p>
+            </a>
+        </div> 
+    </div>
+    
+    <div id="loading-overlay">
+        <div class="loading-spinner"></div>
+    </div>
+    <script src="../main.js"></script>
+</body>
+</html>
